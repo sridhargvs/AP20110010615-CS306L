@@ -1,0 +1,29 @@
+
+G.V.S.Sridhar
+AP20110010615
+CSE-I
+
+In the given symbol Table program, I took an expression by this I define the tokens in the given one 
+And every token is compared and classified as the following way given in the example below
+Ex: I took ‘a’ is identifier, any digit as constant, = as operator and <= and many as relational operator
+I took the expression and declared character array which I defined size of 50 and I took integer data type 
+
+Output: -
+ 
+Enter expression (terminated by $):x=a+b
+Given Expression:x=a+b
+
+Lexxems Address Type
+Symbol   addr                    type
+x        0x555d4d35cac0          identifier
+
+ =       0x555d4d35cb40          operator
+
+a        0x555d4d35cb90          identifier
+
+ +       0x555d4d35cc00          operator
+
+b        0x555d4d35cc40          identifier
+	
+
+Therefore they are divided into address and type of the given ones.
